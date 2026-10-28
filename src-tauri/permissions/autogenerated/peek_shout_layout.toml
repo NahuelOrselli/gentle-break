@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-peek-shout-layout"
+description = "Enables the peek_shout_layout command without any pre-configured scope."
+commands.allow = ["peek_shout_layout"]
+
+[[permission]]
+identifier = "deny-peek-shout-layout"
+description = "Denies the peek_shout_layout command without any pre-configured scope."
+commands.deny = ["peek_shout_layout"]

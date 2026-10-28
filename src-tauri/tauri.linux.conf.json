@@ -1,0 +1,13 @@
+{
+	"$schema": "https://schema.tauri.app/config/2",
+	"bundle": {
+		"targets": ["deb"],
+		"shortDescription": "Un reloj flotante para pararte de la silla",
+		"longDescription": "Alarmas y breaks para no quedarte sentado frente a la pantalla. Ventana siempre visible, notificaciones del sistema.",
+		"linux": {
+			"deb": {
+				"section": "utils"
+			}
+		}
+	}
+}

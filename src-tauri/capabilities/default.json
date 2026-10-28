@@ -1,0 +1,24 @@
+{
+	"$schema": "../gen/schemas/desktop-schema.json",
+	"identifier": "default",
+	"description": "The floating hourglass and the panel may listen, drag the widget, and read or change the schedule.",
+	"windows": ["widget", "panel"],
+	"permissions": [
+		"core:event:allow-listen",
+		"core:event:allow-unlisten",
+		"core:window:allow-start-dragging",
+		"allow-get-state",
+		"allow-save-state",
+		"allow-toggle-panel",
+		"allow-hide-panel",
+		"allow-quit",
+		"allow-import-sound",
+		"allow-preview-sound",
+		"allow-remove-sound",
+		"allow-peek-shout-layout",
+		"allow-begin-shout",
+		"allow-end-shout",
+		"allow-preview-reaction",
+		"dialog:allow-open"
+	]
+}

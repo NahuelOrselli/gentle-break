@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-begin-shout"
+description = "Enables the begin_shout command without any pre-configured scope."
+commands.allow = ["begin_shout"]
+
+[[permission]]
+identifier = "deny-begin-shout"
+description = "Denies the begin_shout command without any pre-configured scope."
+commands.deny = ["begin_shout"]

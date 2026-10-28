@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-end-shout"
+description = "Enables the end_shout command without any pre-configured scope."
+commands.allow = ["end_shout"]
+
+[[permission]]
+identifier = "deny-end-shout"
+description = "Denies the end_shout command without any pre-configured scope."
+commands.deny = ["end_shout"]
